@@ -24,11 +24,11 @@
 }
 
 #rod1 {
-    color: blue;
+    background-color: blue;
     top: 0px;    
 }
 
 #rod2 {
-    color: blueviolet;
+    background-color: blueviolet;
     bottom: 0px;
 }
