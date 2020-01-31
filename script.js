@@ -37,6 +37,10 @@ let windowWidth = window.innerWidth,
 
 function resetBoard(rodName) {
 
+    rod1.style.left = (window.innerWidth - rod1.offsetWidth) / 2 + 'px';
+    rod2.style.left = (window.innerWidth - rod2.offsetWidth) / 2 + 'px';
+    ball.style.left = (windowWidth - ball.offsetWidth) / 2 + 'px';
+
     // Lossing player gets the ball
     if (rodName === rod2Name) {
         ball.style.top = (rod1.offsetTop + rod1.offsetHeight) + 'px';
